@@ -1,6 +1,6 @@
 package src.basics_05_23Dec;
 
-public class Lab076 {
+public class Lab077 {
     public static void main(String[] args) {
 
         // for(A,B,C)
@@ -9,21 +9,23 @@ public class Lab076 {
         // C -> Increment/ Decrement
 
 
-
-
-        // This as float increment happening by one
-       // for (float i = 1; i < 12.34; i++) {
-         //  System.out.println("Hii");
-      //  }
-
-        // Nothing will print cause when i=0; and i>1 -> Condition false
-        for (int i = 0; i >1; i++) {
-            System.out.println("ASDF");
+        //How many times its print
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Hi");
         }
-        // End will print because we are out of loop now
-        System.out.println("End");
 
+        // i = 0, -> 1 |
+        // i = 1, -> 2 |
+        // i = 2, -> 3 |
+        // i = 3, -> 4 |
+        // i = 4, -> 5 |
+        // i = 5, -> 6 |
+        // i = 6, -> 7 |
+        // i = 7, -> 8 |
+        // i = 8, -> 9 |
+        // i = 9, -> 10| 10 times
 
+        System.out.println(" --- End of Program ---");
 
     }
 }

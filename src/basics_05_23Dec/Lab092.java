@@ -1,27 +1,33 @@
 package src.basics_05_23Dec;
 
-public class Lab091 {
+public class Lab092 {
     public static void main(String[] args) {
 
+        int i = 1;
+        // suppose you wrote
+        //10,000 lines of code
+        //Still you can use i and For loop
 
-        // Diff between For and While loop
-
-        int i = 10;
-        while (i>10){
+        // You can reuse the variable 100 of times
+        while (i <= 10){
             System.out.println(i);
-            i++;
+            i = i+2;
         }
-        System.out.println(i); // out of loop so printed
-        // value of i will print because out of loop
-        // but the vale inside will not print because  of false condition
-
-        // Incase of For Loop we cant use J again outside the loop
-        // it is not accepted
-        for (int j = 10; j < 10; j++) {
-            System.out.println(j);
+        while (i <= 10){
+            System.out.println(i);
+            i = i+2;
         }
-     //   System.out.println(j); // cann't use cause its within the for loop
+        while (i <= 10){
+            System.out.println(i);
+            i = i+2;
+        }
+        while (i <= 10){
+            System.out.println(i);
+            i = i+2;
+        }
 
+
+        System.out.println(" --- End of Program ---");
 
 
         }

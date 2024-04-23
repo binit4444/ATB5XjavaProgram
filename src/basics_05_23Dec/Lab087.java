@@ -1,16 +1,19 @@
 package src.basics_05_23Dec;
 
-public class Lab086 {
+public class Lab087 {
     public static void main(String[] args) {
 
-        // In this case continue not allowed
 
-       // int a = 10;
-       // if (a == 10){
-       //     continue;
-        // }
+        for (int i = 1; i <= 10; i++) {
+            if (i%2==0){
+                System.out.println("Val Even of " + i);
+                continue;
+            }
+            System.out.println("Val Odd of " + i);
+        }
 
 
+        System.out.println(" --- End of Program ---");
 
     }
 }

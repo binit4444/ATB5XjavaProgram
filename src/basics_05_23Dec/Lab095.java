@@ -5,20 +5,13 @@ import java.util.Scanner;
 public class Lab095 {
     public static void main(String[] args) {
 
-        // Factorial Program
-        // 1!  -> 1
-        // 2!  -> 2*1
-        // 3!  -> 3*2*1
-        // 4!  -> 4*3*2*1
-        // 5!  -> 5*4*3*2*1 = 120
-        // user_input = 5
-        // Print -> 120
+        // Sum of Digit = 5+4+3+2+1
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
         int number = sc.nextInt();
 
-        long fact = 1;
+        long fact = 0;
         // 5 -> i 1 to 5 -> fact = fact * i , i++
         // A -> int i = 1;
         // B -> i <= number or i <= 5
@@ -37,12 +30,14 @@ public class Lab095 {
 
         // 2nd Way
         for (int j = 1; j <= number; j++) {
-            fact = fact*j;
+            fact = fact+j;
         }
         System.out.println("Fact  -> " + fact);
           sc.close();
 
 
+
+        System.out.println(" --- End of Program ---");
 
     }
 }

@@ -1,21 +1,14 @@
 package src.basics_05_23Dec;
 
-public class Lab088 {
+public class Lab089 {
     public static void main(String[] args) {
 
-        // While and Do While
-        //Minor Syntex Change
 
-        int i = 1;       // A - Initialization
-        while (i<=10){   // B - Condition
-            System.out.println(i);  // D - Code Execution
-            i++;  // C Increment/ Decrement
+        for (int i = 1; i <=10; i=i+2) {  // i=i+1 or i+3 etc
+            System.out.println(i);
         }
 
-       // for (int j = 1; j <=10; j++) {
-       // System.out.println(i);
-      //  }
-
+        System.out.println(" --- End of Program ---");
 
     }
 }

@@ -1,6 +1,6 @@
 package src.basics_05_23Dec;
 
-public class Lab075 {
+public class Lab076 {
     public static void main(String[] args) {
 
         // for(A,B,C)
@@ -17,11 +17,12 @@ public class Lab075 {
       //  }
 
         // Nothing will print cause when i=0; and i>1 -> Condition false
-        for (double i = 0; i >1; i++) {
+        for (int i = 0; i >1; i++) {
             System.out.println("ASDF");
         }
-        // End will print because we are out of loop now
-        System.out.println("End");
+        // End of Program will print because we are out of loop now
+
+        System.out.println(" --- End of Program ---");
 
 
 

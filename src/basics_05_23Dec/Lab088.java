@@ -1,18 +1,23 @@
 package src.basics_05_23Dec;
 
-public class Lab087 {
+public class Lab088 {
     public static void main(String[] args) {
 
+        // While and Do While
+        //Minor Syntex Change
 
-        for (int i = 1; i <= 10; i++) {
-            if (i%2==0){
-                System.out.println("Val Even of " + i);
-                continue;
-            }
-            System.out.println("Val Odd of " + i);
+        int i = 1;       // A - Initialization
+        while (i<=10){   // B - Condition
+            System.out.println(i);  // D - Code Execution
+            i++;  // C Increment/ Decrement
         }
 
+       // for (int j = 1; j <=10; j++) {
+       // System.out.println(i);
+      //  }
 
+
+        System.out.println(" --- End of Program ---");
 
     }
 }

@@ -1,6 +1,6 @@
 package src.basics_05_23Dec;
 
-public class Lab081 {
+public class Lab082 {
     public static void main(String[] args) {
 
         // for(A,B,C)
@@ -9,20 +9,19 @@ public class Lab081 {
         // C -> Increment/ Decrement
 
 
+       // Print the Odd number in between the 1 to 50.
+        // if else
 
-        // Pre Increment
-            for (int i = 1; i <= 10; ++i) {
-            System.out.println("Value of " + i);
+            for (int i = 1; i <= 50; i++) {
+                if (i%2==1){
+                    System.out.println(i + " is Odd!");
+                }
+
         }
-        System.out.println("End");
-            // For loop ->
-        // 1) Initialization
-        // 2) Condition
-        // 3) Executes loop body
-        // 4) updation
-        // So in For Loop after Execution then updation will happen
-        // Updation is last part.
-        // people prefer ++ post Increment
+            // For Even Number if (!(i%2==1))
+        // Or if (i%2==0) -> Even Number
+
+        System.out.println(" --- End of Program ---");
 
 
     }

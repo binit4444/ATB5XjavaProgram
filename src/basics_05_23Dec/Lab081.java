@@ -1,6 +1,6 @@
 package src.basics_05_23Dec;
 
-public class Lab080 {
+public class Lab081 {
     public static void main(String[] args) {
 
         // for(A,B,C)
@@ -10,13 +10,21 @@ public class Lab080 {
 
 
 
-        System.out.println("Print the values in reverse");
-
-         // Decrement
-            for (int i = 10; i > 0; i--) {
+        // Pre Increment
+            for (int i = 1; i <= 10; ++i) {
             System.out.println("Value of " + i);
         }
-        System.out.println("End");
+
+        System.out.println(" --- End of Program ---");
+
+            // For loop ->
+        // 1) Initialization
+        // 2) Condition
+        // 3) Executes loop body
+        // 4) updation
+        // So in For Loop after Execution then updation will happen
+        // Updation is last part.
+        // people prefer ++ post Increment
 
 
     }
