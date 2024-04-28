@@ -1,20 +1,18 @@
 package src.basics_06_24Dec;
 
-public class Lab102 {
+public class Lab103 {
     public static void main(String[] args) {
 
-        int[] arr1 = {99,132,63,94,45};
+        int[] arr1 = {99,92,63,34,15};
+        int arr2[] = {4,30,20,18,15}; // We can use ( int arr2[] ) -> [] Square breckets After variable name
 
-        // Debugging the Program
-
-        System.out.println("Length -> " + arr1.length);
-
-        System.out.println("Ref Address -> " + arr1);
-
+        // Double this array
 
         for (int i = 0; i < arr1.length; i++) {
-            System.out.println(arr1[i]);
+            System.out.println(arr1[i]*2);
         }
+        // Index -> 4
+        // Length -> 5
 
 
 
