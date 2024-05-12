@@ -1,4 +1,4 @@
-package src.oops_08_6th_Jan_2024;
+package src.oops_08_6th_Jan_2024.basics;
 
 import java.util.Locale;
 import java.util.Scanner;
